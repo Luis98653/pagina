@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Estación - 92</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 fs-4 fw-bold" href="#">
+        <img src="logo-estacion92.jpeg" alt="Logo Estación 92" style="max-height: 80px;">
+        Estación - 92
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menú</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reservas">Reservas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="#equipo">Chef</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pedidos">Delivery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ubicacion">Ubicación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero / Inicio -->
+  <section id="inicio" class="bg-dark text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-3 fw-bold mb-3">Bienvenido a Estación - 92</h1>
+      <p class="lead mb-4">Donde cada plato es una parada obligatoria. Disfruta de nuestra cocina artesanal y ambiente único.</p>
+      <a href="#reservas" class="btn btn-success btn-lg px-4">Reserva tu mesa</a>
+    </div>
+  </section>
+
+  <!-- Menú -->
+  <section id="menu" class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">Nuestro Menú</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <!-- Hamburguesa Artesanal -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="hamburguesa-artesanal.jpg" class="card-img-top" alt="Hamburguesa Artesanal">
+            <div class="card-body">
+              <h5 class="card-title">Hamburguesa Artesanal</h5>
+              <p class="card-text">Carne 100% Angus, pan artesanal, vegetales frescos y salsa especial.</p>
+              <span class="badge bg-success fs-6">S/ 18.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pollo a la Plancha -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="pollo-plancha.jpeg" class="card-img-top" alt="Pollo a la Plancha">
+            <div class="card-body">
+              <h5 class="card-title">Pollo a la Plancha</h5>
+              <p class="card-text">Jugoso pollo a la plancha acompañado de papas doradas y ensalada fresca.</p>
+              <span class="badge bg-success fs-6">S/ 16.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Alitas BBQ -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="alitas-bbq.jpg" class="card-img-top" alt="Alitas BBQ">
+            <div class="card-body">
+              <h5 class="card-title">Alitas BBQ</h5>
+              <p class="card-text">Alitas bañadas en salsa BBQ, servidas con bastones de apio y aderezo ranch.</p>
+              <span class="badge bg-success fs-6">S/ 14.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Alitas Broaster -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="alitas-brosther.png" class="card-img-top" alt="Alitas Broaster">
+            <div class="card-body">
+              <h5 class="card-title">Alitas Broaster</h5>
+              <p class="card-text">Crujientes alitas broaster servidas con papas y salsa especial.</p>
+              <span class="badge bg-success fs-6">S/ 14.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pan con Chicharrón -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="pan-chicharron.jpg" class="card-img-top" alt="Pan con Chicharrón">
+            <div class="card-body">
+              <h5 class="card-title">Pan con Chicharrón</h5>
+              <p class="card-text">Clásico pan con chicharrón, camote frito y salsa criolla.</p>
+              <span class="badge bg-success fs-6">S/ 10.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pan con Palta -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="pan-palta.png" class="card-img-top" alt="Pan con Palta">
+            <div class="card-body">
+              <h5 class="card-title">Pan con Palta</h5>
+              <p class="card-text">Pan francés con palta fresca y un toque de limón.</p>
+              <span class="badge bg-success fs-6">S/ 5.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pan con Pollo -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="pan-pollo.jpg" class="card-img-top" alt="Pan con Pollo">
+            <div class="card-body">
+              <h5 class="card-title">Pan con Pollo</h5>
+              <p class="card-text">Delicioso pan con pollo deshilachado, mayonesa y lechuga fresca.</p>
+              <span class="badge bg-success fs-6">S/ 6.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Keke Casero -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="keke.jpg" class="card-img-top" alt="Keke Casero">
+            <div class="card-body">
+              <h5 class="card-title">Keke Casero</h5>
+              <p class="card-text">Delicioso keke de la casa, suave y esponjoso, ideal para acompañar tu café.</p>
+              <span class="badge bg-success fs-6">S/ 6.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gaseosa -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="gaseosa.png" class="card-img-top" alt="Gaseosa">
+            <div class="card-body">
+              <h5 class="card-title">Gaseosa</h5>
+              <p class="card-text">Variedad de gaseosas frías para refrescar tu día.</p>
+              <span class="badge bg-success fs-6">S/ 4.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Café -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="cafe-americano.jpeg" class="card-img-top" alt="Café">
+            <div class="card-body">
+              <h5 class="card-title">Café</h5>
+              <p class="card-text">Café pasado o americano, recién preparado.</p>
+              <span class="badge bg-success fs-6">S/ 4.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Manzana -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="jugo-manzana.jpg" class="card-img-top" alt="Manzana">
+            <div class="card-body">
+              <h5 class="card-title">Manzana</h5>
+              <p class="card-text">Fruta fresca y jugosa, ideal como snack saludable.</p>
+              <span class="badge bg-success fs-6">S/ 2.00</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservas -->
+  <section id="reservas" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Reservas</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-7">
+          <form>
+            <div class="row mb-3">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre completo" required>
+              </div>
+              <div class="col">
+                <input type="email" class="form-control" placeholder="Correo electrónico" required>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <input type="date" class="form-control" required>
+              </div>
+              <div class="col">
+                <input type="time" class="form-control" required>
+              </div>
+              <div class="col">
+                <input type="number" class="form-control" placeholder="Personas" min="1" required>
+              </div>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="3" placeholder="Comentarios (opcional)"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success w-100">Reservar Mesa</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria" class="py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">Galería</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <img src="cafe-americano.jpeg" class="img-fluid rounded shadow-sm" alt="Bedida Estrella">
+        </div>
+        <div class="col-md-4">
+          <img src="salchipapa.webp" class="img-fluid rounded shadow-sm" alt="Plato Estrella">
+        </div>
+        <div class="col-md-4">
+          <img src="Estacion-92l.webp" class="img-fluid rounded shadow-sm" alt="Ambiente 1">
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Chef / Equipo -->
+  <section id="equipo" class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="mb-4">Nuestro Chef</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <img src="chef.jpg" alt="Chef Principal" class="img-fluid rounded-circle mb-3" style="width: 200px; height: 200px; object-fit: cover;">
+          <h4>Chef Juan Pérez</h4>
+          <p class="text-muted">Con más de 15 años de experiencia fusionando sabores peruanos con técnicas modernas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios" class="bg-white py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">Lo que dicen nuestros clientes</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"¡Un lugar espectacular! Todo delicioso."</p>
+            <footer class="blockquote-footer">María López</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"Excelente atención y comida fresca. 100% recomendado."</p>
+            <footer class="blockquote-footer">Carlos Ruiz</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote">
+            <p>"La hamburguesa artesanal es simplemente perfecta."</p>
+            <footer class="blockquote-footer">Lucía Fernández</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pedidos / Delivery -->
+  <section id="pedidos" class="py-5 bg-success text-white text-center">
+    <div class="container">
+      <h2 class="mb-4">¿Con hambre? ¡Pide ahora!</h2>
+      <p class="lead">Haz tu pedido rápido por WhatsApp y recíbelo en minutos.</p>
+      <a href="https://wa.me/51927502752" target="_blank" class="btn btn-light btn-lg">Pedir por WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- Ubicación -->
+  <section id="ubicacion" class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="mb-4">¿Dónde estamos?</h2>
+      <p class="mb-4">Ven a visitarnos y disfruta de la mejor comida en Estación - 92</p>
+      <div class="ratio ratio-16x9">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.8633748990906!2d-76.254824!3d-10.667711299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910813bb5f85649d%3A0x29874d3945b1b544!2sEstacion%2092!5e0!3m2!1ses-419!2spe!4v1753681673491!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog / Novedades -->
+  <section id="blog" class="py-5 bg-white text-center">
+    <div class="container">
+      <h2 class="mb-4">Novedades y Promociones</h2>
+      <div class="row">
+      
+        <div class="row justify-content-center">
+  <div class="col-md-4 mb-4">
+    <div class="card h-100 shadow-sm">
+      <img src="salchimix.jpg" class="card-img-top" alt="Nuevo Plato: Salchimix">
+      <div class="card-body text-center">
+        <h5 class="card-title">Nuevo Plato: Salchimix</h5>
+        <p class="card-text">Un sabor único, disponible desde este mes.</p>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+    <!-- Contacto -->
+  <section id="contacto" class="bg-dark text-white py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Contacto</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <ul class="list-unstyled mb-4">
+            <li><strong>Dirección:</strong> Av. Principal 123, Pasco</li>
+            <li><strong>Teléfono:</strong> (01) 234-5678</li>
+            <li><strong>Email:</strong> contacto@estacion92.com</li>
+            <li><strong>Horario:</strong> Lun-Dom 3:00pm - 11:00pm</li>
+          </ul>
+          <a href="#reservas" class="btn btn-outline-light w-100">Reservar Ahora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-secondary text-white text-center py-3">
+    <div class="container">
+      <small>&copy; 2025 Estación - 92. Todos los derechos reservados.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
